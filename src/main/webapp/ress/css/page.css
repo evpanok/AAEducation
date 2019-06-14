@@ -1,0 +1,229 @@
+body {
+    background-color: #f9f9f9;
+    min-width: 960px;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'PT Sans Narrow','Arial', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #050505;
+}
+header{
+    min-height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #cccccc;
+}
+.index-logo{
+    display: block;
+    width: 160px;
+    height:100px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+a.user_href{
+    color:#888888;
+    border-bottom: 1px solid #888888;
+}
+ header a.nav_menu_home{
+    display: block;
+}
+img.nav_menu_home {
+    height: 25px;
+    width: 25px;
+    margin-top: 47px;
+    margin-left: 47px;
+    margin-right: 157px;
+}
+.nav_name {
+    height: 65px;
+    position: absolute;
+    margin-left: 30%;
+}
+.nav_name-section-page {
+    height: 65px;
+    position: absolute;
+    margin-left: 50%;
+}
+.nav_name-subsection-page {
+    height: 65px;
+    position: absolute;
+    margin-left: 45%;
+}
+.nav_button {
+    height: 65px;
+    width: 200px;
+    margin-top: 27px;
+    margin-left: 30px;
+    background-color: #38bfff;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+
+.nav_menu {
+    position: relative;
+    display: inline-block;
+}
+
+.nav_button-content {
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    height: auto;
+    min-width: 200px;
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.nav_button-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav_button-content a:hover {
+    background-color: darkgray;
+    -webkit-animation: anim 3s;
+    animation: anim 3s;
+}
+
+@-webkit-keyframes anim {
+    1% {
+        background-color: #38bfff;
+    }
+
+}
+
+@keyframes anim {
+    1% {
+        background-color: #38bfff;
+    }
+
+}
+
+.nav_menu:hover .nav_button-content {
+    display: block;
+}
+
+.nav_menu:hover .nav_button {
+    background-color: darkgray;
+}
+
+.nav_registry {
+    padding-top: 35px;
+    margin-right: 20px;
+    height: 65px;
+    color:#ffffff; 
+}
+span a {
+    text-decoration: none;
+}
+
+.module-section-page {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.module-section-page_subsection {
+    background-color: black;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+}
+
+.module-section-page_subsection a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+}
+
+
+.module-section-page_subsection a:hover {
+    background-color: darkgray;
+    -webkit-animation: anim 3s;
+    animation: anim 3s;
+}
+
+@-webkit-keyframes anim {
+    1% {
+        background-color: #38bfff;
+    }
+
+}
+
+@keyframes anim {
+    1% {
+        background-color: #38bfff;
+    }
+}
+
+
+.module-section-page_info {
+    width: 80%;
+    background-color: transparent;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.module-subsection-page {
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.module-subsection-page_name {
+    color: #111111;
+    
+    font-size: 20px;
+
+}
+
+.module-subsection-page_video {
+
+     margin-top: 20px;
+}
+
+.module-subsection-page_loading {
+    margin-top: 20px;
+    margin-right: 400px;
+    margin-bottom:100px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+.module-info_site {
+    text-decoration: none;
+    color: #000000;
+    line-height: 35px;
+}
