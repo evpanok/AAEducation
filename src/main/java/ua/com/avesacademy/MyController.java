@@ -75,7 +75,7 @@ public class MyController {
 
     }
 
-    @RequestMapping("/OneC")
+    @RequestMapping("/pageOneC")
     public String pageOneC(Model model){
         User user = (User)SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         model.addAttribute("login",user.getUsername());

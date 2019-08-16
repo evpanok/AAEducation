@@ -21,7 +21,7 @@
             <a href="/pageSale">Продажи</a>
             <a href="/pageMarketing">Маркетинг</a>
             <a href="/pageManagement">Менеджмент</a>
-            <a href="/OneC">1C</a>
+            <a href="/pageOneC">1C</a>
             <a href="#">Link</a>
             <a href="#">Link</a>
         </div>
